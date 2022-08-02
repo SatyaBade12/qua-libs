@@ -1,8 +1,6 @@
 import numpy as np
 
-from qualang_tools.config.configuration import *
-from qualang_tools.config.components import *
-from qualang_tools.config.builder import ConfigBuilder
+from qualang_tools.config import *
 
 # Initialize ConfigBuilder object
 cb = ConfigBuilder()
